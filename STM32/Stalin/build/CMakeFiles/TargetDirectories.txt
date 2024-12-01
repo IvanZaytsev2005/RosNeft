@@ -1,0 +1,8 @@
+/home/dgtop/projects/Stalin/STM32/Stalin/build/CMakeFiles/Stalin.dir
+/home/dgtop/projects/Stalin/STM32/Stalin/build/CMakeFiles/edit_cache.dir
+/home/dgtop/projects/Stalin/STM32/Stalin/build/CMakeFiles/rebuild_cache.dir
+/home/dgtop/projects/Stalin/STM32/Stalin/build/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/dgtop/projects/Stalin/STM32/Stalin/build/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
+/home/dgtop/projects/Stalin/STM32/Stalin/build/libs/PID/CMakeFiles/PID.dir
+/home/dgtop/projects/Stalin/STM32/Stalin/build/libs/PID/CMakeFiles/edit_cache.dir
+/home/dgtop/projects/Stalin/STM32/Stalin/build/libs/PID/CMakeFiles/rebuild_cache.dir

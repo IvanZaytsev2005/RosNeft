@@ -1,0 +1,88 @@
+ARM GAS  /tmp/cc30demA.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"app.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.app,"ax",%progbits
+  18              		.align	1
+  19              		.global	app
+  20              		.arch armv7e-m
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  24              		.fpu fpv4-sp-d16
+  26              	app:
+  27              	.LFB134:
+  28              		.file 1 "App/Src/app.c"
+   1:App/Src/app.c **** #include "app.h"
+   2:App/Src/app.c **** 
+   3:App/Src/app.c **** void app()
+   4:App/Src/app.c **** {
+  29              		.loc 1 4 1 view -0
+  30              		.cfi_startproc
+  31              		@ Volatile: function does not return.
+  32              		@ args = 0, pretend = 0, frame = 0
+  33              		@ frame_needed = 0, uses_anonymous_args = 0
+  34 0000 08B5     		push	{r3, lr}
+  35              	.LCFI0:
+  36              		.cfi_def_cfa_offset 8
+  37              		.cfi_offset 3, -8
+  38              		.cfi_offset 14, -4
+  39              	.L2:
+   5:App/Src/app.c ****     while(1){
+  40              		.loc 1 5 5 discriminator 1 view .LVU1
+   6:App/Src/app.c ****         HAL_GPIO_TogglePin(Led_GPIO_Port, Led_Pin);
+  41              		.loc 1 6 9 discriminator 1 view .LVU2
+  42 0002 4FF40051 		mov	r1, #8192
+  43 0006 0448     		ldr	r0, .L4
+  44 0008 FFF7FEFF 		bl	HAL_GPIO_TogglePin
+  45              	.LVL0:
+   7:App/Src/app.c ****         HAL_Delay(500);
+  46              		.loc 1 7 9 discriminator 1 view .LVU3
+  47 000c 4FF4FA70 		mov	r0, #500
+  48 0010 FFF7FEFF 		bl	HAL_Delay
+  49              	.LVL1:
+   5:App/Src/app.c ****     while(1){
+  50              		.loc 1 5 10 discriminator 1 view .LVU4
+ARM GAS  /tmp/cc30demA.s 			page 2
+
+
+  51 0014 F5E7     		b	.L2
+  52              	.L5:
+  53 0016 00BF     		.align	2
+  54              	.L4:
+  55 0018 00080240 		.word	1073874944
+  56              		.cfi_endproc
+  57              	.LFE134:
+  59              		.text
+  60              	.Letext0:
+  61              		.file 2 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h"
+  62              		.file 3 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h"
+  63              		.file 4 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
+  64              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
+ARM GAS  /tmp/cc30demA.s 			page 3
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 app.c
+     /tmp/cc30demA.s:18     .text.app:0000000000000000 $t
+     /tmp/cc30demA.s:26     .text.app:0000000000000000 app
+     /tmp/cc30demA.s:55     .text.app:0000000000000018 $d
+
+UNDEFINED SYMBOLS
+HAL_GPIO_TogglePin
+HAL_Delay

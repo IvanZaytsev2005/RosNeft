@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libCLI.a CMakeFiles/CLI.dir/src/comand_processing.c.obj CMakeFiles/CLI.dir/src/serial_driver.c.obj
+/usr/bin/arm-none-eabi-ranlib libCLI.a

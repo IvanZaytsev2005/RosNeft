@@ -1,0 +1,11 @@
+/home/dgtop/projects/Stalin/STM32/PID_test/build/CMakeFiles/PID_test.dir
+/home/dgtop/projects/Stalin/STM32/PID_test/build/CMakeFiles/edit_cache.dir
+/home/dgtop/projects/Stalin/STM32/PID_test/build/CMakeFiles/rebuild_cache.dir
+/home/dgtop/projects/Stalin/STM32/PID_test/build/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/dgtop/projects/Stalin/STM32/PID_test/build/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
+/home/dgtop/projects/Stalin/STM32/PID_test/build/libs/PID/CMakeFiles/PID.dir
+/home/dgtop/projects/Stalin/STM32/PID_test/build/libs/PID/CMakeFiles/edit_cache.dir
+/home/dgtop/projects/Stalin/STM32/PID_test/build/libs/PID/CMakeFiles/rebuild_cache.dir
+/home/dgtop/projects/Stalin/STM32/PID_test/build/libs/CLI/CMakeFiles/CLI.dir
+/home/dgtop/projects/Stalin/STM32/PID_test/build/libs/CLI/CMakeFiles/edit_cache.dir
+/home/dgtop/projects/Stalin/STM32/PID_test/build/libs/CLI/CMakeFiles/rebuild_cache.dir

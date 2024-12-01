@@ -1,0 +1,5 @@
+/home/dgtop/projects/Stalin/STM32/Stalin/CMakeFiles/Stalin.dir
+/home/dgtop/projects/Stalin/STM32/Stalin/CMakeFiles/edit_cache.dir
+/home/dgtop/projects/Stalin/STM32/Stalin/CMakeFiles/rebuild_cache.dir
+/home/dgtop/projects/Stalin/STM32/Stalin/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/dgtop/projects/Stalin/STM32/Stalin/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

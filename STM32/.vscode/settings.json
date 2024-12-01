@@ -1,0 +1,4 @@
+{
+    "ros.distro": "humble",
+    "C_Cpp.errorSquiggles": "disabled"
+}
